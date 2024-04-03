@@ -9,4 +9,7 @@
   <app-carousel [images]="images" />
   <h3>Descrição</h3>
   <article [innerHTML]="getData()?.description"></article>
+  <a href="{{ getData()?.repo }}">
+    <button class="btn btn-secondary">Repositório do Projeto</button>
+  </a>
 </mat-dialog-content>

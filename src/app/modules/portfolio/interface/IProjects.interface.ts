@@ -6,4 +6,5 @@ export interface IProjects {
   height: string;
   description: string;
   images: Array<string>;
+  repo: string;
 }

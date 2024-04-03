@@ -6,6 +6,7 @@
 </header>
 
 <mat-dialog-content>
+  <app-carousel [images]="images" />
   <h3>Descrição</h3>
   <article [innerHTML]="getData()?.description"></article>
 </mat-dialog-content>

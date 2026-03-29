@@ -53,6 +53,38 @@ export class ProjectsComponent {
       ],
       repo: 'https://github.com/DanielSantosProg/Eu-Vou',
     },
+    {
+      src: 'assets/img/projects/bradescoapi/bradesco.svg',
+      alt: 'Api Bradesco',
+      title: 'Api Bradesco',
+      width: '100px',
+      height: '71px',
+      description:
+        'Projeto realizado para suprir a demanda da empresa Rei Informática, que possui clientes que necessitavam gerar boletos do Bradesco. Essa Api funciona basicamente como um Middleware que conecta o sistema da empresa à Api de Internet Banking do Bradesco, enviando os dados necessários e realizando ações como geração, consulta, cancelamento e alteração de boletos.',
+      images: [
+        'assets/img/projects/bradescoapi/bradesco.svg',
+      ],
+      repo: 'https://github.com/DanielSantosProg/testeBoleto',
+    },
+    {
+      src: 'assets/img/projects/aiinteraction/aiicon.svg',
+      alt: 'Interação com IA para Análise de Dados',
+      title: 'Interação com IA para Análise de Dados',
+      width: '100px',
+      height: '71px',
+      description:
+        'Projeto desenvolvido em TypeScript para análise de dados de empresas clientes. O sistema se conecta com a base de dados do cliente, permitindo a criação e visualização de interações com a IA do Gemini. Um relatório é gerado com base no modelo e filtros escolhidos; este é enviado para a IA, que analisa os dados com base no prompt definido, trazendo a resposta e salvando-a para consultas futuras.',
+      images: [
+        'assets/img/projects/aiinteraction/login.jpg',
+        'assets/img/projects/aiinteraction/home.jpg',
+        'assets/img/projects/aiinteraction/config.jpg',
+        'assets/img/projects/aiinteraction/interactions.jpg',
+        'assets/img/projects/aiinteraction/newInteraction.jpg',
+        'assets/img/projects/aiinteraction/analise.jpg',
+        'assets/img/projects/aiinteraction/charts.jpg',
+      ],
+      repo: 'https://github.com/DanielSantosProg/testeBoleto',
+    },
   ]);
 
   public openDialog(data: IProjects) {

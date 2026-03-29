@@ -8,6 +8,30 @@
     background: var(--primary);
   }
 
+  .header-intro{
+    font-size: 20px;
+    color: white;
+    margin: 40px 0 20px 0;
+  }
+
+  .intro-span{
+    color: white;
+    font-weight: bold;
+  }
+
+  .portfolio-header {
+    position: absolute;
+    top: 3%;
+    left: 2em;
+    font-size: 2em;
+  }
+
+  .portfolio-header p{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+  }
+
   header,
   aside {
     display: flex;

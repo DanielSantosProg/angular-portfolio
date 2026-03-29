@@ -15,8 +15,8 @@ export class KnowledgeComponent {
       alt: '´Conhecimento de html5',
     },
     {
-      src: 'assets/icons/knowledge/css3.svg',
-      alt: '´Conhecimento de css',
+      src: 'assets/icons/knowledge/react.svg',
+      alt: '´Conhecimento de React',
     },
     {
       src: 'assets/icons/knowledge/angular.svg',
@@ -25,22 +25,14 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/knowledge/csharp.svg',
       alt: '´Conhecimento de C#',
-    },
-    {
-      src: 'assets/icons/knowledge/dotnet.svg',
-      alt: '´Conhecimento de .net',
-    },
-    {
-      src: 'assets/icons/knowledge/aspnet.svg',
-      alt: '´Conhecimento de ASP.net',
-    },
+    },    
     {
       src: 'assets/icons/knowledge/javascript.svg',
       alt: '´Conhecimento de Javascript',
     },
     {
-      src: 'assets/icons/knowledge/nodejs.svg',
-      alt: '´Conhecimento de NodeJs',
+      src: 'assets/icons/knowledge/typescript.svg',
+      alt: '´Conhecimento de Typescript',
     },
     {
       src: 'assets/icons/knowledge/python.svg',
@@ -49,6 +41,14 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/knowledge/mysql.svg',
       alt: '´Conhecimento de MySql',
+    },
+    {
+      src: 'assets/icons/knowledge/postgresql.svg',
+      alt: '´Conhecimento de PostgreSQL',
+    },
+    {
+      src: 'assets/icons/knowledge/sql-server.svg',
+      alt: '´Conhecimento de SQL Server',
     },
   ]);
 }
